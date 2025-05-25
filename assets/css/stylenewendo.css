@@ -92,28 +92,27 @@ li {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.9s ease;
 }
 
 .button-dionisio {
-  background-color: #a83232;
-  /* Un rojo intenso */
-  color: white;
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ccc; /* Un borde gris claro */
 }
 
 .button-apolo {
-  background-color: #88ff00;
-  /* Un gris claro */
-  color: #343a40;
-  /* Un gris oscuro */
+  background-color: #000000;
+  color: #ffffff;
+
 }
 
 .button-dionisio:hover {
-  background-color: #8c2828;
+  background-color: #000000;
 }
 
 .button-apolo:hover {
-  background-color: #e2e6ea;
+  background-color: #ffffff;
 }
 
 /* fondo de franja significado */

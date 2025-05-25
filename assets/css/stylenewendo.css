@@ -57,7 +57,7 @@ h2,h1{
     color: var(--primary-color);
   }
 
-p, li{
+p, li, blockquote{
  color: #1a1a1a;
 }
 

@@ -366,3 +366,32 @@ a:focus, button:focus {
   outline: 3px solid var(--primary-color);
   outline-offset: 2px;
 }
+
+
+
+/* Piramide_Nutricional
+
+    /* Estilos personalizados para el gradiente y otros detalles */
+    .bg-gradient-warning {
+        background: linear-gradient(45deg, #ffc107, #ff9800); /* Adaptado de Bootstrap warning */
+        /* O un gradiente más personalizado */
+        /* background: linear-gradient(45deg, #FFD700, #FFA500); */
+    }
+    .card {
+        border-radius: 1.5rem !important; /* Bordes más redondeados */
+    }
+    .figure-img {
+        max-height: 400px; /* Limita la altura de la imagen para mejor responsividad */
+        object-fit: contain; /* Asegura que la imagen se vea completa */
+    }
+    .btn-outline-primary {
+        transition: all 0.3s ease;
+    }
+    .btn-outline-primary:hover {
+        background-color: #0d6efd;
+        color: white;
+        transform: translateY(-2px); /* Pequeño efecto hover */
+    }
+    .animate__pulse {
+        --animate-duration: 2s; /* Ajusta la duración de la animación */
+    }

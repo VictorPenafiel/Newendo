@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    color: theme('colors.text');
+    background-color: theme('colors.background');
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2 {
+    font-family: 'Lobster', cursive;
+    color: theme('colors.accent');
+  }
+
+  h5, h6 {
+    font-family: 'Lobster', cursive;
+    color: theme('colors.primary.DEFAULT');
+  }
+
+  p, li, blockquote {
+    color: #1a1a1a;
+  }
+
+  h3, h4 {
+    color: #1a1a1a;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+}
+
+/* Custom CSS to carry over */
+.bg-warning-stripe {
+  background-color: theme('colors.primary.DEFAULT') !important;
+}
+
+/* Base list styling */
+li {
+  text-indent: 0.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-size: 15px;
+}

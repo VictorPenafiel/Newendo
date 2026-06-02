@@ -36,9 +36,9 @@ const Navbar = () => {
             <a href="http://www.newendowellness.cl/" className="border border-primary text-primary hover:bg-white hover:text-primary px-3 py-1 rounded text-sm font-medium transition-colors">
               <h6 className="m-0 text-sm">Newendo Wellness</h6>
             </a>
-            <a href="http://localhost:5173/" className="border border-primary text-primary hover:bg-white hover:text-primary px-3 py-1 rounded text-sm font-medium transition-colors">
+            <Link to="/" className="border border-primary text-primary hover:bg-white hover:text-primary px-3 py-1 rounded text-sm font-medium transition-colors">
               <h6 className="m-0 text-sm">Home</h6>
-            </a>
+            </Link>
             <a href="#pilares" className="border border-primary text-primary hover:bg-white hover:text-primary px-3 py-1 rounded text-sm font-medium transition-colors">
               <h6 className="m-0 text-sm">Pilares</h6>
             </a>
